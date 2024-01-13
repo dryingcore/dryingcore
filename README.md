@@ -18,7 +18,7 @@ Eu sou Gabriel Antunes Rocha, um estudante do ensino médio no Brasil, atualment
 
 ## Projetos
 
-Aqui estão alguns dos meus projetos mais recentes:
+Aqui estão alguns dos meus projetos mais relevantes:
 
 - 🌐 [Calc.js](https://github.com/DryingCore/Calc.js): A Web-Calculator made by me for the Onebitcode course.
 - 💻 [CLI-note](https://github.com/DryingCore/CLI-note): A CLI program made with Nodejs for create a note and store the created note on a directory default or a your preference directory.
