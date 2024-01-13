@@ -25,7 +25,7 @@ Aqui estão alguns dos meus projetos mais relevantes:
 
 ## Linguagens e Ferramentas
 
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript | Nodejs
 - Python
 - Brutus, React, Hydra, Nmap
 
