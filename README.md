@@ -33,7 +33,6 @@ Aqui estão alguns dos meus projetos mais relevantes:
 
 - Email: lein0rb4g@gmail.com
 - LinkedIn: [Gabriel Antunes Rocha](https://www.linkedin.com/in/gabriel-antunes-rocha-816b482a6/)
-- Website: [dryingcore.com](https://dryingcore.github.io/Website/)
 
 Sinta-se à vontade para explorar meus repositórios e entrar em contato! Vamos aprender e construir coisas incríveis juntos =)
 
