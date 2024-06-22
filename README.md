@@ -17,7 +17,7 @@ const Developer = require("./Developer");
 const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "MongoDB", "MySQL", "React", "Electron", "Typescript"]);
 ```
 
-![github-snake](https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg#gh-light-mode-only)
+![github-snake](https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg)
 
 <div align="center">
   <a href="https://github.com/DryingCore">
