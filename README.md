@@ -21,7 +21,6 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
   <img alt="github-snake" src="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-
 <div style="display: flex; justify-content: center;">
     <a>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark">
