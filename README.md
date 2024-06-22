@@ -21,4 +21,3 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
 ## Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/gabriel-antunes-rocha-816b482a6/)
 [![Twitter](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=green)](https://twitter.com/seu-perfil)
-
