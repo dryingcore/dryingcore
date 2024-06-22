@@ -30,7 +30,7 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
     <a href="https://www.linkedin.com/in/gabriel-antunes-rocha-816b482a6/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue">
     </a>
-    <a>
+    <a href="https://www.instagram.com/__antunesgabriel/" target="_blank">
         <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=green">
     </a>
 </div>
