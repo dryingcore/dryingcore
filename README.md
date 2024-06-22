@@ -1,3 +1,7 @@
+
+
+<img src="https://avatars.githubusercontent.com/DryingCore
+" width="200">
 ```javascript
 module.exports = class Developer {
 	constructor(name, role, age, [tech]) {
