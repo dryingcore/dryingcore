@@ -17,11 +17,9 @@ const Developer = require("./Developer");
 const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "MongoDB", "MySQL", "React", "Electron", "Typescript"]);
 ```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
-</picture>
+![github-snake](https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg#gh-dark-mode-only)
+![github-snake](https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg#gh-light-mode-only)
+
 <div align="center">
   <a href="https://github.com/DryingCore">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark">
