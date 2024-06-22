@@ -15,8 +15,8 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dtyin/YOUR_REPOSITORY/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
 
