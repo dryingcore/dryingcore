@@ -15,7 +15,7 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
 
 ## Minhas Contribuições
 
-<img height=200px src="https://avatars.githubusercontent.com/u/?v=4">
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg" />
