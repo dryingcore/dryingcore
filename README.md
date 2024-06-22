@@ -1,4 +1,4 @@
-<div style="width: fit-content; margin: auto;">
+<div "width: fit-content;" "margin: auto;">
 <img src="https://avatars.githubusercontent.com/DryingCore" width="200">
 </div>
 
@@ -25,7 +25,7 @@ const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "Mo
   <img alt="github-snake" src="https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<div style="display: flex; justify-content: center;">
+<div "display: flex; justify-content: center;">
     <a>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark">
     </a>
