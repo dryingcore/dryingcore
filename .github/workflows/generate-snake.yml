@@ -1,38 +1,39 @@
 name: Generate Snake
 
 on:
- schedule:
-  # Runs at 12:00 AM UTC every day
-  - cron: "0 0 * * *"
- workflow_dispatch:
- push:
-  branches:
-   - main
+  schedule:
+    # Executa todos os dias à meia-noite UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
- generate:
-  runs-on: ubuntu-latest
+  generate:
+    runs-on: ubuntu-latest
 
-  steps:
-   - name: Checkout
-     uses: actions/checkout@v2
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-   - name: Generate snake
-     uses: Platane/snk@v2
-     with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      output: dist/github-contribution-grid-snake.svg
+      - name: Generate snake
+        uses: Platane/snk@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: dist/github-contribution-grid-snake.svg
 
-   - name: Generate snake dark
-     uses: Platane/snk@v2
-     with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      output: dist/github-contribution-grid-snake-dark.svg
-      color_snake: green
-      color_dots: "#FFD700, #FF4500, #1E90FF, #32CD32, #FFFFE0"
+      - name: Generate snake dark
+        uses: Platane/snk@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: dist/github-contribution-grid-snake-dark.svg
+          color_snake: green
+          color_dots: "#FFD700, #FF4500, #1E90FF, #32CD32, #FFFFE0"
 
-   - name: Push generated snake
-     uses: peaceiris/actions-gh-pages@v3
-     with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: ./dist
+      - name: Push generated snake
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: output
