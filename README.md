@@ -1,6 +1,5 @@
 <div style="width: fit-content; margin: auto;">
-<img src="https://avatars.githubusercontent.com/DryingCore
-" width="200">
+<img src="https://avatars.githubusercontent.com/DryingCore" width="200">
 </div>
 
 ```javascript
