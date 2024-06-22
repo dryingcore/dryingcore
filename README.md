@@ -14,7 +14,10 @@ const Developer = require("./Developer");
 const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "MongoDB", "MySQL", "React", "Electron", "Typescript"])
 ```
 
-![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark)
+<div>
+<img href="https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark">
+![Most used languages]()
+</div>
 
 ![Stats](https://github-readme-streak-stats.herokuapp.com/?user=DryingCore&theme=dark)
 
