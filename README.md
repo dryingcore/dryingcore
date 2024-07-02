@@ -6,11 +6,6 @@
 
 <div align="center">
   <a href="https://github.com/dryingcore">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dryingcore&layout=compact&theme=dark">
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/dryingcore">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=dryingcore&theme=dark">
   </a>
 </div>
