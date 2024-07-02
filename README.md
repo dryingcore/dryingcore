@@ -1,32 +1,17 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/DryingCore" width="200">
+  <img src="https://avatars.githubusercontent.com/dryingcore" width="200">
 </div>
 
-```javascript
-module.exports = class Developer {
-	constructor(name, role, age, tech) {
-		this.name = name;
-		this.role = role;
-		this.age = age;
-		this.tech = tech;
-	}
-};
-
-const Developer = require("./Developer");
-
-const Gabriel = new Developer("Gabriel", "Software Engineer", 17, ["NodeJS", "MongoDB", "MySQL", "React", "Electron", "Typescript"]);
-```
-
-![github-snake](https://github.com/DryingCore/DryingCore/blob/output/github-contribution-grid-snake-dark.svg)
+![github-snake](https://github.com/DryingCore/dryingcore/blob/output/github-contribution-grid-snake-dark.svg)
 
 <div align="center">
-  <a href="https://github.com/DryingCore">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DryingCore&layout=compact&theme=dark">
+  <a href="https://github.com/dryingcore">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dryingcore&layout=compact&theme=dark">
   </a>
 </div>
 <div align="center">
-  <a href="https://github.com/DryingCore">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DryingCore&theme=dark">
+  <a href="https://github.com/dryingcore">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dryingcore&theme=dark">
   </a>
 </div>
 <div align="center">
