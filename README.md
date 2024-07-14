@@ -10,7 +10,6 @@
   </a>
 </div>
 <div align="center">
-  <h2>Socials</h2>
   <a href="https://www.linkedin.com/in/gabriel-antunes-rocha-816b482a6/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue">
   </a>
