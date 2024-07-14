@@ -14,7 +14,9 @@ With a passion for technology and a commitment to excellence, I specialize in de
 
 ## Back-End Development
 - Node.js
-- API development
+- Typescript
+- ExpressJS
+- MongoDB
 
 ## Development Tools
 - Intellij IDEA
