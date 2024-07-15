@@ -34,7 +34,7 @@ With a passion for technology and a commitment to excellence, I specialize in de
 
 <div align="center">
 <h3>Socials</h3>
-  <a href="https://www.linkedin.com/in/gabriel-antunes-rocha-816b482a6/" target="_blank">
+  <a href="https://www.linkedin.com/in/gabriel-rocha-816b482a6" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue" alt="LinkedIn">
   </a>
   <a href="https://www.instagram.com/__antunesgabriel/" target="_blank">
