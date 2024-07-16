@@ -1,7 +1,5 @@
 <img align="left" height="200" src="https://avatars.githubusercontent.com/dryingcore"  />
 
-###
-
 <h1 align="center">Gabriel Rocha | Software Developer</h1>
 
 ###
