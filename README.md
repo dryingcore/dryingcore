@@ -1,6 +1,10 @@
-<img align="left" height="200" src="https://avatars.githubusercontent.com/dryingcore"  />
+<br clear="both">
 
 <h1 align="center">Gabriel Rocha | Software Developer</h1>
+
+###
+
+<img align="right" height="500" src="https://avatars.githubusercontent.com/dryingcore"  />
 
 ###
 
@@ -24,11 +28,21 @@
 
 ###
 
-<br clear="both">
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="120" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=apprentice&hide_border=true" height="120" alt="languages graph"  />
+</div>
+
+###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=10&theme=apprentice&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=ff0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
+  <a href="https://www.linkedin.com/in/gabriel-rocha-816b482a6/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=blue&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/__antunesgabriel/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=black&logoColor=green&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+  </a>
 </div>
 
 ###
@@ -36,17 +50,5 @@
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/dryingcore/dryingcore/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=darkgreen&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <a href="https://www.linkedin.com/in/gabriel-rocha-816b482a6/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=blue&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/__antunesgabriel/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=gray&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-</div>
 
 ###
