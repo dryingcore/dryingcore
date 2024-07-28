@@ -4,7 +4,7 @@
 
 ###
 
-<img align="right" height="500" src="https://avatars.githubusercontent.com/dryingcore"  />
+<img align="right" height="" src="https://avatars.githubusercontent.com/dryingcore"  />
 
 ###
 
@@ -56,11 +56,5 @@
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=black&logoColor=green&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
   </a>
 </div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/dryingcore/dryingcore/output/snake.svg" alt="Snake animation" />
 
 ###
