@@ -38,11 +38,7 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="30" alt="docker logo"  />
 </div>
 
-###
-
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="120" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=apprentice&hide_border=true" height="120" alt="languages graph"  />
 </div>
-
-###
