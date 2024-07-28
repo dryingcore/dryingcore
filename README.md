@@ -52,22 +52,20 @@
 
 ###
 
+<img align="right" height="200" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
+
+###
+
 <img align="right" height="200" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="100" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" height="100" alt="languages graph"  />
-</div>
+<img align="right" height="200" src="https://github.com/user-attachments/assets/ad8746c6-5374-4c20-b012-ee1e37c022ea"  />
 
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
+  <img height="200" src="https://github.com/user-attachments/assets/1e47a2a3-9201-4094-aecb-43b2aefbf602"  />
 </div>
 
 ###
