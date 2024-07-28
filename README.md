@@ -52,15 +52,15 @@
 
 ###
 
-<img align="right" height="180" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
+<img align="right" height="130" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
 
 ###
 
-<img align="right" height="180" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
+<img align="right" height="130" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
 
 ###
 
-<img align="right" height="180" src="https://github.com/user-attachments/assets/ad8746c6-5374-4c20-b012-ee1e37c022ea"  />
+<img align="right" height="130" src="https://github.com/user-attachments/assets/ad8746c6-5374-4c20-b012-ee1e37c022ea"  />
 
 ###
 
