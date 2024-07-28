@@ -4,8 +4,6 @@
 
 ###
 
-<br clear="both">
-
 <img align="right" height="300" src="https://avatars.githubusercontent.com/dryingcore"  />
 
 ###
