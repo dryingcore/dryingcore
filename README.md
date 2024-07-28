@@ -5,14 +5,6 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
-</div>
-
-###
-
-<br clear="both">
-
-<div align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="30" alt="typescript logo"  />
   <img width="5" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="30" alt="react logo"  />
@@ -57,6 +49,10 @@
   <img width="5" />
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" height="30" alt="linux logo"  />
 </div>
+
+###
+
+<img align="right" height="200" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
 
 ###
 
