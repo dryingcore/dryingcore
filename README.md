@@ -2,11 +2,7 @@
 
 <h1 align="center">Gabriel Rocha | Software Developer</h1>
 
-###
-
 <img align="right" height="250" src="https://avatars.githubusercontent.com/dryingcore"  />
-
-###
 
 <div align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="30" alt="typescript logo"  />
