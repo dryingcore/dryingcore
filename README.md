@@ -6,7 +6,7 @@
 
 <br clear="both">
 
-<img align="right" height="250" src="https://avatars.githubusercontent.com/dryingcore"  />
+<img align="right" height="400" src="https://avatars.githubusercontent.com/dryingcore"  />
 
 ###
 
