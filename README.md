@@ -64,8 +64,6 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://github.com/user-attachments/assets/1e47a2a3-9201-4094-aecb-43b2aefbf602"  />
-</div>
+<img align="right" height="130" src="https://github.com/user-attachments/assets/dedd6d0a-18f5-40a6-a65f-3639760a4b40"  />
 
 ###
