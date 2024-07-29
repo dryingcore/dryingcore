@@ -52,7 +52,10 @@
 
 ###
 
-<img align="right" height="130" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" height="150" alt="languages graph"  />
+</div>
 
 ###
 
@@ -72,10 +75,7 @@
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" height="150" alt="languages graph"  />
-</div>
+<img align="right" height="130" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
 
 ###
 
