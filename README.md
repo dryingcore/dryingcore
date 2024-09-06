@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h1 align="center">Gabriel Rocha | Software Developer</h1>
+<h1 align="center">Software Developer</h1>
 
 ###
 
