@@ -2,8 +2,6 @@
 
 <h1 align="center">Pleno Software Engineer</h1>
 
-###
-
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=10&theme=dark&hide_border=true" height="150" alt="languages graph"  />
@@ -15,7 +13,8 @@
 
 ###
 
-<img align="right" height="130" src="https://github.com/user-attachments/assets/b7917762-7467-4763-944c-c9ab7bc75550"  />
+<img align="right" height="130" src="https://github.com/user-attachments/assets/51908205-182a-47a0-8967-730052bdfa6e"  />
+
 
 ###
 
