@@ -1,31 +1,17 @@
-<br clear="both">
+Eng. Software II | IoT, Mobile. Backend, DevOps
 
-<h1 align="center">Pleno Software Engineer</h1>
+"Facing complex regex to match my brain synapses pattern";
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=dryingcore&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dryingcore&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=10&theme=dark&hide_border=true" height="150" alt="languages graph"  />
-</div>
+instagram -> @decodesoftware__
+website -> https://decodesoftware.tech/
+email -> gabrielrocha.dev@decodesoftware.tech
 
-###
+my own instagram (too busy to care about it) -> @gabrielrocha.dev
 
-<img align="right" height="110" src="https://github.com/user-attachments/assets/434bb85f-6a2d-40ac-b559-253a7ff6ad77"  />
+sorry, but I'm currently focused on have an awesome graduation, awesome skills, and experiences, not on have a beautiful github or even talk w/ people who has nothing to say. 
 
-###
-
-<img align="right" height="110" src="https://github.com/user-attachments/assets/6efac14d-b058-4109-bed6-c2c9722af1fb"  />
-
-###
-
-<img align="right" height="110" src="https://github.com/user-attachments/assets/dedd6d0a-18f5-40a6-a65f-3639760a4b40"  />
-
-###
-
-<img align="right" height="110" src="https://github.com/user-attachments/assets/e93ed772-037e-4449-a309-f8c547e6d97e"  />
-
-###
-
-<img align="right" height="110" src="https://github.com/user-attachments/assets/d7370d88-8f58-4ba0-9efd-72a9b3846820"  />
-
-###
-
+best regards from here,
+I hope you are doing well,
+do not give up
+we are humans
+althought programmers are not 100% %% %@#$ tsc tsc tsc__ bipppp__ _ _ _ __ _ ____ _ _ _ _  _   __
