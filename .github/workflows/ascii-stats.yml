@@ -33,6 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
+          EXCLUDE_LANGS: "HTML,CSS"
 
       - name: commit README
         run: |

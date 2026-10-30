@@ -26,7 +26,8 @@ README = os.environ.get("README_PATH", "README.md")
 START = "<!-- ASCII-STATS:START -->"
 END = "<!-- ASCII-STATS:END -->"
 
-WIDTH = 58
+WIDTH = 80
+FONTS = ("ansi_shadow", "doom")  # first one that fits WIDTH wins
 
 
 def api(path):
@@ -66,16 +67,26 @@ def collect():
 def banner(text):
     try:
         import pyfiglet
-        art = pyfiglet.figlet_format(text, font="small", width=WIDTH)
-    except Exception:
-        art = f"[ {text} ]\n"
-    return [line.rstrip() for line in art.rstrip("\n").split("\n")]
+    except ImportError:
+        return [f"[ {text} ]"]
+    for font in FONTS:
+        art = pyfiglet.figlet_format(text, font=font, width=1000)
+        lines = [line.rstrip() for line in art.rstrip().split("\n")]
+        if max(len(l) for l in lines) <= WIDTH:
+            return lines
+    return [f"[ {text} ]"]
 
 
-def box(lines):
-    top = "+" + "-" * (WIDTH + 2) + "+"
-    body = [f"| {line[:WIDTH].ljust(WIDTH)} |" for line in lines]
-    return [top, *body, top]
+def box(sections):
+    top = "╔" + "═" * (WIDTH + 2) + "╗"
+    sep = "╟" + "─" * (WIDTH + 2) + "╢"
+    bottom = "╚" + "═" * (WIDTH + 2) + "╝"
+    out = [top]
+    for i, lines in enumerate(sections):
+        if i:
+            out.append(sep)
+        out += [f"║ {line[:WIDTH].ljust(WIDTH)} ║" for line in lines]
+    return [*out, bottom]
 
 
 def render(data):
@@ -87,25 +98,28 @@ def render(data):
         top.append(("Other", sum(v for _, v in rest)))
 
     fav = ranked[0][0] if ranked else "Hello"
-    lines = [*banner(fav), "", f"> linguagem mais usada: {fav}", ""]
+    art = banner(fav)
+    pad = (WIDTH - max(len(l) for l in art)) // 2
+    head = ["", *[" " * pad + l for l in art], "", f"  >> linguagem mais usada: {fav}"]
 
     name_w = max([len(n) for n, _ in top] + [5])
-    bar_w = WIDTH - name_w - 9
-    for name, size in top:
+    bar_w = WIDTH - name_w - 13
+    chart = [""]
+    for i, (name, size) in enumerate(top, 1):
         pct = size / total * 100
         filled = round(pct / 100 * bar_w)
         bar = "█" * filled + "░" * (bar_w - filled)
-        lines.append(f"{name.ljust(name_w)}  {bar} {pct:5.1f}%")
+        chart.append(f" {i:02d} {name.ljust(name_w)} ▕{bar}▏{pct:5.1f}%")
+    chart.append("")
 
-    lines += [
-        "",
-        f"repos: {data['repos']}   stars: {data['stars']}   "
-        f"followers: {data['followers']}   since: {data['since']}",
+    footer = [
+        f"  repos: {data['repos']}  │  stars: {data['stars']}  │  "
+        f"followers: {data['followers']}  │  since: {data['since']}",
     ]
 
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    footer = f"  updated {updated} · {USER}@github:~$ _"
-    return "\n".join(["```text", *box(lines), footer, "```"])
+    prompt = f"  {USER}@github:~$ ./langs --updated {updated} _"
+    return "\n".join(["```text", *box([head, chart, footer]), prompt, "```"])
 
 
 def main():
