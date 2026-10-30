@@ -4,6 +4,7 @@ into README.md between the ASCII-STATS markers.
 
 Env vars:
   GITHUB_TOKEN    token used for the GitHub API (required in CI)
+  INCLUDE_PRIVATE "true" to also read private repos (needs a personal token)
   GH_USER         profile owner (default: dryingcore)
   TOP_N           how many languages to list before grouping into "Other"
   EXCLUDE_LANGS   comma separated languages to ignore (e.g. "HTML,CSS")
@@ -23,6 +24,7 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 TOP_N = int(os.environ.get("TOP_N", "8"))
 EXCLUDE = {l.strip().lower() for l in os.environ.get("EXCLUDE_LANGS", "").split(",") if l.strip()}
 README = os.environ.get("README_PATH", "README.md")
+INCLUDE_PRIVATE = os.environ.get("INCLUDE_PRIVATE", "").lower() == "true"
 
 START = "<!-- ASCII-STATS:START -->"
 END = "<!-- ASCII-STATS:END -->"
@@ -44,22 +46,26 @@ def collect():
     user = api(f"/users/{USER}")
     repos, page = [], 1
     while True:
-        batch = api(f"/users/{USER}/repos?per_page=100&type=owner&page={page}")
+        if INCLUDE_PRIVATE:
+            batch = api(f"/user/repos?per_page=100&affiliation=owner&visibility=all&page={page}")
+        else:
+            batch = api(f"/users/{USER}/repos?per_page=100&type=owner&page={page}")
         repos += batch
         if len(batch) < 100:
             break
         page += 1
 
-    own = [r for r in repos if not r["fork"] and not r.get("archived")]
+    # skip forks and this profile repo (its stats script is not a project)
+    own = [r for r in repos if not r["fork"] and r["name"].lower() != USER.lower()]
     langs = {}
     for r in own:
-        for lang, size in api(f"/repos/{USER}/{r['name']}/languages").items():
+        for lang, size in api(f"/repos/{r['full_name']}/languages").items():
             langs[lang] = langs.get(lang, 0) + size
 
     return {
         "langs": langs,
         "repos": len(own),
-        "stars": sum(r["stargazers_count"] for r in own),
+        "stars": sum(r["stargazers_count"] for r in own if not r["private"]),
         "followers": user.get("followers", 0),
         "since": user.get("created_at", "")[:4],
     }

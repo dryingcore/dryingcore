@@ -31,7 +31,9 @@ jobs:
           pip install pyfiglet
           python .github/scripts/ascii_stats.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # optional fine-grained PAT (Metadata: read on all repos) to count private repos too
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          INCLUDE_PRIVATE: ${{ secrets.STATS_TOKEN != '' }}
           GH_USER: ${{ github.repository_owner }}
           EXCLUDE_LANGS: "HTML,CSS"
 
