@@ -1,15 +1,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/debian.dark.svg">
-  <img alt="debian" src="https://ascii.rest/svg/debian.svg" width="130" align="right">
+  <img alt="debian" src="https://ascii.rest/svg/debian.svg" width="130" align="left">
 </picture>
 
 <p><br></p>
 
-Eng. Software | IoT, Mobile. Backend, DevOps
+<p align="right">Eng. Software | IoT, Mobile. Backend, DevOps</p>
 
-"Facing complex regex to match my brain synapses pattern";
+<p align="right">"Facing complex regex to match my brain synapses pattern";</p>
 
-<br clear="right">
+<br clear="left">
 
 <br/>
 <br/>
