@@ -11,6 +11,13 @@ Eng. Software | IoT, Mobile. Backend, DevOps
 
 <br clear="right">
 
+<br/>
+<br/>
+<br/>
+
+---
+
+
 <!-- ASCII-STATS:START -->
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════════╗
