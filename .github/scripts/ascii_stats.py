@@ -10,6 +10,7 @@ Env vars:
   README_PATH     file to update (default: README.md)
   STATS_JSON      optional path to a JSON file with fake data, for local tests
 """
+import html
 import json
 import os
 import re
@@ -119,7 +120,9 @@ def render(data):
 
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     prompt = f"  {USER}@github:~$ ./langs --updated {updated} _"
-    return "\n".join(["```text", *box([head, chart, footer]), prompt, "```"])
+    # every line has the same width so the centered <pre> keeps the box aligned
+    lines = [*box([head, chart, footer]), prompt.ljust(WIDTH + 4)]
+    return "\n".join(['<div align="center">', "<pre>", *map(html.escape, lines), "</pre>", "</div>"])
 
 
 def main():
